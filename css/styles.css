@@ -9,8 +9,9 @@
 
 h1 {  color: white; font-family: 'Roboto';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
 h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
+  line-height: 2;
 }
 
 .bartop{
@@ -63,7 +64,7 @@ h2{
 #testimonials{
   background-color: #ff4c68;
   text-align: center;
-  padding: 7% 15%;
+  padding: 7% 20%;
   color: white;
 }
 
@@ -72,4 +73,17 @@ h2{
   background-color: #ff4c68;
   text-align: center;
   padding-bottom: 3rem;
+}
+
+/*Card*/
+#pricing{
+  text-align: center;
+}
+
+.pricing-col{
+  padding-top: 3%;
+}
+
+.card{
+  text-align: center;
 }
