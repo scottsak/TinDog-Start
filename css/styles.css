@@ -8,6 +8,10 @@
 }
 
 h1 {  color: white; font-family: 'Roboto';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
+h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
 
 .bartop{
   padding: 0 0 50px;
@@ -22,7 +26,7 @@ h1 {  color: white; font-family: 'Roboto';  font-size: 3rem;  line-height: 1.5; 
 }
 
 .navbar-brand{
-  font-family: Ubuntu;
+  font-family: 'Ubuntu';
   font-size: 2.5rem;
 
 }
@@ -38,5 +42,34 @@ h1 {  color: white; font-family: 'Roboto';  font-size: 3rem;  line-height: 1.5; 
 /* Features */
 
 .fas{
-  
+  color: red;
+  size: 500px;
+  padding-bottom: 1.5rem;
+}
+
+.feat{
+  padding: 9% 5%;
+}
+
+.fas:hover{
+  color: green;
+}
+
+.row-feat{
+  padding: 0 10%;
+}
+
+/*Testimonials*/
+#testimonials{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+/*Press*/
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3rem;
 }
